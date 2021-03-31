@@ -6,6 +6,6 @@ Regression algorithm has been developed to determine whether a patient has benig
 malignant cells. The performance of the model is evaluated in terms
 of accuracy, recall, precision, k-fold cross validation, along with area
 under the receiver operating characteristic (AUC-ROC curve). To
-optimise our model, we implemented a wrapper and filter feature
-selection method which reduces irrelevant attributes and only attains
+optimise the model, a wrapper and filter feature
+selection method have been implemented, which reduces irrelevant attributes and only attains
 key underlying features.
