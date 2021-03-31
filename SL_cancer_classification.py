@@ -259,7 +259,7 @@ for i in range(k):
 """## Optimisation"""
 
 # f-test for feature selection/ not included in assessment
-#This was used to validate our feature selection results below
+#This was used to validate the feature selection results below
 from sklearn.feature_selection import f_classif, SelectKBest
 select = SelectKBest(score_func=f_classif, k='all')
 select.fit(x_train, y_train)
